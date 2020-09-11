@@ -33,7 +33,7 @@
 <body>
 
 <nav id="top-bar" class="menu-bar">
-    <a class="bar-item" href="docs/Spacebarman-presskit.pdf" target="_blank">Bio</a>
+    <a class="bar-item" href="bio/" target="_blank">Bio</a>
     <a class="bar-item" href="https://www.youtube.com/user/spacebarmanvideo" target="_blank">Video</a>
     <a class="bar-item" href="https://spacebarman.us12.list-manage.com/subscribe?u=08fa2b83e7de09bfd19384dee&id=08f0d07b1e" target="_blank">Subscribe</a>
     <div class="bar-item submenu">

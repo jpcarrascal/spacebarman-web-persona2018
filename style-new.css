@@ -1,0 +1,134 @@
+/* COLORS:
+Dark background: #171719;
+Blue background: #1a6a89;
+Light blue: #33a8c1;
+Orange: #ff7223;
+*/
+
+* { margin: 0; padding: 0; border: 0; }
+
+a
+{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: #ff7223;
+}
+
+p, h2
+{
+    margin-bottom: 1em;
+}
+
+
+html
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Raleway, century-gothic, sans-serif;
+    font-size: 1em;
+    background: url("images/web-bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #CCC;
+    background-color: transparent;
+}
+
+
+
+#container
+{
+    top:0;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    font-size: 1em;
+    text-align: center;
+    overflow: visible;
+    /*white-space:nowrap;*/
+}
+
+
+h2.ep-title
+{
+    font-size: 3.6em;
+    font-weight: normal;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.footer
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+}
+
+.spacebarman-description
+{
+    display: block;
+    color: rgba(255,255,255,0.05);//#474749;
+    padding: 1em;
+}
+
+/*@media screen and (max-width:830px), screen and (max-height:450px)*/
+@media only screen and (max-device-width: 480px)
+{
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    html
+    {
+        font-size: 0.7em;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-height : 320px) {
+
+}
