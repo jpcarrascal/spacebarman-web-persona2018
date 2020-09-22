@@ -53,11 +53,11 @@
     
     <div id="profiles">    
         <div class="profile">
-            <img class="profile-img" src="images/profile-red-left.png" />
+            <img class="profile-img" src="images/profile-red-left.gif" />
         </div>
 
         <div class="profile right">
-            <img class="profile-img" src="images/profile-red-left.png" />
+            <img class="profile-img" src="images/profile-red-left.gif" />
         </div>
     </div>
     

@@ -145,7 +145,7 @@ body
 }
 
 
-.bar-item:hover, .bar-subitem:hover
+.bar-item:hover, .bar-subitem:hover, .bar-item:active, .bar-subitem:active
 {
     color: #272729;
     background-color: #dec493;
@@ -310,7 +310,7 @@ h2.ep-title
 }
 
 .listen-dropdown {
-    margin-top: -490px;
+    margin-top: -400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -323,7 +323,7 @@ h2.ep-title
 
 .service-logo
 {
-    width: 300px;
+    width: 250px;
 }
 
 .play-service
